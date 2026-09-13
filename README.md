@@ -350,21 +350,29 @@ Through this project, I gained practical experience in:
 - Organizing a data-engineering project for version control
 
 ---
+📚 Learning Reference & Attribution
 
-📚 Learning Reference
+This project was built independently as part of my data engineering learning journey, with guidance from Baraa's SQL Data Warehouse tutorials and project structure.
 
-This project was developed independently while learning from Baraa's SQL Data Warehouse tutorials.
-
-The tutorials were used as a learning reference for concepts such as:
+The tutorials were used as a learning reference for concepts including:
 
 - Data warehouse architecture
-- Medallion architecture
-- ETL design
-- Data transformation
+- Medallion architecture (Bronze, Silver, Gold)
+- ETL processes
+- Data cleaning and transformation
 - Dimensional modelling
 - Star-schema design
+- SQL Server data warehousing
 
-The implementation, debugging, data-quality investigation, and project organization were carried out as part of my own learning and practice.
+The SQL implementation, data transformations, debugging, testing, and project development were carried out independently as part of my own learning and practice.
+
+Original Learning Resource
+
+The project was inspired by and developed while following Baraa's SQL Data Warehouse course/tutorial.
+
+The original project is licensed under the MIT License. Where applicable, the original copyright and license notices have been retained in accordance with the license terms.
+
+This repository is an independent learning implementation and is not the original project.
 
 ---
 
