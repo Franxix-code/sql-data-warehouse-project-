@@ -7,7 +7,7 @@ for analytics and reporting.
 
 ## Architecture
 
-![High Level Architecture](docs/high_level_architecture.png)
+![High Level Architecture](doc/high_level_architecture.png)
 
 Raw CSV files from two source systems (CRM and ERP) are loaded into SQL
 Server and processed through three layers:
@@ -37,7 +37,7 @@ Server and processed through three layers:
 
 ## Data Flow
 
-![Data Flow](docs/data_flow.png)
+![Data Flow](doc/data_flow.png)
 
 Each of the six source tables (three from CRM, three from ERP) flows
 independently through Bronze and Silver, and converges into the Gold
@@ -46,7 +46,7 @@ layer's three objects: `dim_customers`, `dim_products`, and
 
 ## Data Model (Star Schema)
 
-![Sales Data Mart Star Schema](docs/star_schema.png)
+![Sales Data Mart Star Schema](doc/star_schema.png)
 
 `gold.fact_sales` sits at the center, at a grain of one row per sales
 order line item, and joins to two dimensions via surrogate keys:
